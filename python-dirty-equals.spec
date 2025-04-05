@@ -1,6 +1,7 @@
 %define module dirty-equals
 %define oname dirty_equals
-%bcond_without test
+# disable tests for abf
+%bcond_with test
 
 Name:		python-dirty-equals
 Version:	0.9.0
